@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>
+	<%= title %>
+	</title>
+	<meta charset="utf-8" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" >
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+		/* Give a background image to the jumbotron container */
+		.jumbotron
+		{
+			background-image: url(img/bg2.jpg);
+			background-size:cover;
+
+		}
+    </style>
+
+
+</head>
+<body>
+
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="aboutme">About Me</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/projects">Projects</a></li>
+		 <li><a href="/contactme">Contact Me</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+<div class="jumbotron" >
+
+<div class="container-fluid text-center">
+  <h1 style=" font-style:italic;">Connect with me</h1><br>
+  <div class="row" >
+   
+    <div class="col-sm-4">
+	<a href="https://www.facebook.com/sidhu.jassi.58">
+      <img src="img/logo/facebook.png" class="img-responsive" style="width:60px; height:60px;" alt="Image">
+	</a>
+    </div>
+    <div class="col-sm-4">
+	<a href="https://www.linkedin.com/in/jaswinder-kaur-8237537a?trk=nav_responsive_tab_profile">
+      <img src="img/logo/linkedin.png" class="img-responsive" style="width:60px; height:60px;" alt="Image">
+	</a>
+    </div>
+    <div class="col-sm-4">
+	<a href="https://plus.google.com/u/0/109666091606708448459/posts">
+      <img src="img/logo/google.png" class="img-responsive" style="width:60px; height:60px;" alt="Image">
+	</a>
+    </div>
+
+  </div>
+</div>
+
+<div class="container-fluid text-center">
+<br><br>
+<h2 style="font-style:italic;"> Send me your feedback </h2>
+<br>
+    <textarea id="feedback" rows="10" cols="60"></textarea>
+    <br /><br />
+
+    <input type="button" value="Send" id="submit">
+</div>
+</div>
+
+</body>
+</html>
